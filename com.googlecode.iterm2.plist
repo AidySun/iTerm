@@ -23,7 +23,7 @@
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>LeftTabBarWidth</key>
-	<real>245.90625</real>
+	<real>217.77734375</real>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
@@ -64,13 +64,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>929 113 445 103 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>2090 318 620 392 1440 -180 1920 1057 </string>
+	<string>672 498 620 392 0 0 1920 1057 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1864 2 606 469 1440 -180 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2200 399 1018 447 1440 -180 1920 1057 </string>
+	<string>749 -479 918 452 314 -900 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1440 407 1920 470 1440 -180 1920 1057 </string>
+	<string>314 -943 1440 920 314 -900 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>176 425 570 452 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -93,14 +93,16 @@
 			</dict>
 			<key>Ansi 1 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.18431372549019609</real>
+				<real>0.24729693867266178</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.19607843137254902</real>
+				<real>0.25508398715926972</real>
 				<key>Red Component</key>
-				<real>0.86274509803921573</real>
+				<real>0.69635009765625</real>
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
@@ -292,14 +294,16 @@
 			<false/>
 			<key>Bold Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.63137254901960782</real>
+				<real>0.659393310546875</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.63137254901960782</real>
+				<real>0.659393310546875</real>
 				<key>Red Component</key>
-				<real>0.57647058823529407</real>
+				<real>0.60902522411197424</real>
 			</dict>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -358,14 +362,16 @@
 			<false/>
 			<key>Foreground Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.58823529411764708</real>
+				<real>0.687774658203125</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.58039215686274515</real>
+				<real>0.67896691998957026</real>
 				<key>Red Component</key>
-				<real>0.51372549019607838</real>
+				<real>0.60410114517435431</real>
 			</dict>
 			<key>Guid</key>
 			<string>2C1E401D-B133-421D-A56A-0D8F52E306AA</string>
@@ -693,9 +699,9 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>25</integer>
+			<integer>45</integer>
 			<key>Screen</key>
-			<integer>-1</integer>
+			<integer>-2</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Selected Text Color</key>
@@ -726,6 +732,8 @@
 			<string>A</string>
 			<key>Silence Bell</key>
 			<false/>
+			<key>Space</key>
+			<integer>0</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -1335,9 +1343,9 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>25</integer>
+			<integer>40</integer>
 			<key>Screen</key>
-			<integer>-1</integer>
+			<integer>-2</integer>
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Selected Text Color</key>
@@ -1462,7 +1470,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-12-11T07:26:17Z</date>
+	<date>2019-03-01T07:26:13Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1473,6 +1481,8 @@
 	<true/>
 	<key>TabStyle</key>
 	<integer>1</integer>
+	<key>TabStyleWithAutomaticOption</key>
+	<integer>3</integer>
 	<key>TabViewType</key>
 	<integer>2</integer>
 	<key>TerminalVMargin</key>
@@ -1486,7 +1496,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.2.6</string>
+	<string>3.2.7</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
