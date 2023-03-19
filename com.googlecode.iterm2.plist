@@ -4,8 +4,10 @@
 <dict>
 	<key>AutoHideTmuxClientSession</key>
 	<false/>
+	<key>Command</key>
+	<string>/bin/sh</string>
 	<key>Default Bookmark Guid</key>
-	<string>C54E8536-1C13-44A9-A79F-104E60907280</string>
+	<string>2C1E401D-B133-421D-A56A-0D8F52E306AA</string>
 	<key>DimBackgroundWindows</key>
 	<false/>
 	<key>DimOnlyText</key>
@@ -257,7 +259,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string></string>
+			<string>/bin/sh</string>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -294,7 +296,7 @@
 				<real>0.027450980392156862</real>
 			</dict>
 			<key>Custom Command</key>
-			<string>No</string>
+			<string>Yes</string>
 			<key>Custom Directory</key>
 			<string>Yes</string>
 			<key>Default Bookmark</key>
@@ -324,6 +326,8 @@
 			<real>1</real>
 			<key>Idle Code</key>
 			<integer>0</integer>
+			<key>Initial Text</key>
+			<string>source ~/.profile</string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
